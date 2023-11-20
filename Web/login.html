@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylelogin.css">
+  <title>Fortes Engenharia</title>
+</head>
+<body>
+  <div class="topo">
+    <nav class="nav-bar">
+      <div class="logo">
+        <img
+          src="assets/img/FORTES_LOGOMARCA_moldura-e1660776738611.png"
+          alt=""
+        />
+      </div>
+      </nav>
+  </div>
+  <div class="wrap">
+    <form class="login-form" onsubmit="attemptLogin(); return false;">
+        <div class="form-header">
+            <h3>Bem-Vindo a Fortes Engenharia</h3>
+            <p>Entre em nosso APP</p>
+        </div>
+        <div class="form-group">
+            <input type="text" id="username" class="form-input" placeholder="ID">
+        </div>
+        <div class="form-group">
+            <input type="password" id="password" class="form-input" placeholder="senha">
+        </div>
+        <div class="form-group">
+            <button class="form-button" type="submit">Login</button>
+        </div>
+    </form>
+</div>
+<script>
+    function attemptLogin() {
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        // Login e Senha disponiveis
+        if (username === 'josealdo' && password === '123456') {
+            alert('Login bem-sucedido!');
+            window.location.href = 'index.html';
+        } else {
+            alert('Login falhou. Verifique seu usuário e senha.');
+        }
+    }
+</script>
+</body>
+</html>

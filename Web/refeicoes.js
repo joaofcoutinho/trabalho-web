@@ -1,0 +1,8 @@
+let refeicoesJson = [
+    {id:1, name:'Estrogonofe de Frango', img:'https://giraffas-02.giraffas.com.br/www/i7291x230830.png', price:20.00, sizes:['300g', '530g', '860g'], description:'Irresistível molho de estrogonofe com cubos de frango, arroz e fritas ou purê. Contem champignon!'},
+    {id:2, name:'Churrasco', img:'https://giraffas-02.giraffas.com.br/www/i4980x220322.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Bife bovino de (aprox. 85g in natura) e linguiça toscana (aprox. 60g in natura), arroz, feijão, farofa, salada e molho'},
+    {id:3, name:'Bife Acebolado', img:'https://giraffas-02.giraffas.com.br/www/i5041x220322.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Delicioso corte maturado bovino (Aprox. 180g in natura) com molho acebolado.'},
+    {id:4, name:'Frango à Parmegiana', img:'https://giraffas-02.giraffas.com.br/www/i11981x220322.png', price:19.90, sizes:['320g', '530g', '860g'], description:'Filé de peito de frango (Aprox. 170g in natura) empanado e coberto por molho de tomate e muçarela, arroz e fritas ou purê.'},
+    {id:5, name:'Bowl de Arroz', img:'https://giraffas-02.giraffas.com.br/www/i6651x220328.png', price:21.90, sizes:['320g', '530g', '860g'], description:'Arroz com brócolis, cebola, tomate picadinho, feijão-fradinho,legumes e iscas de peito de frango.'},
+    {id:6, name:'Filé de Frango Empanado', img:'https://giraffas-02.giraffas.com.br/www/i4975x220322.png', price:18.90, sizes:['320g', '530g', '860g'], description:'4 Filezinhos de frango empanados (Aprox. 40g cada - in natura). Acompanha arroz, feijão, salada, batata frita e molho.'},
+]
